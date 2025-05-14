@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Joe's DevOps Experience - Under Construction!</title>
+    <style>
+        body {
+            background-color: #000066;
+            color: lime;
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('under-construction.gif');
+        }
+        
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+        
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        
+        marquee {
+            color: yellow;
+            font-size: 24px;
+        }
+        
+        table {
+            border: 3px solid lime;
+            width: 100%;
+        }
+        
+        .counter {
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .guestbook {
+            border: 2px dashed yellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="devops-now.gif" alt="DevOps NOW!">
+        <h1>Welcome to My DevOps Experience!</h1>
+        <marquee>• Best viewed in Netscape Navigator • 1024x768 resolution • Last Updated: <script>document.write(new Date().toLocaleDateString());</script> •</marquee>
+        
+        <table cellpadding="10">
+            <tr>
+                <td width="20%">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Mad Skills</a></li>
+                        <li><a href="#projects">Cool Projects</a></li>
+                        <li><a href="#contact">Hit Me Up</a></li>
+                    </ul>
+                    <img src="email-me.gif" alt="Email me!">
+                </td>
+                <td>
+                    <h2 id="about">About Me</h2>
+                    <p>Hi! I'm <blink>YOUR NAME HERE</blink>, a DevOps engineer with a passion for automation, CI/CD pipelines, and making servers scream with performance!</p>
+                    <img src="construction.gif" alt="Under Construction">
+                    
+                    <h2 id="skills">Mad Skills</h2>
+                    <ul>
+                        <li>Linux/Unix wizardry</li>
+                        <li>Docker/Kubernetes container magic</li>
+                        <li>AWS/GCP cloud wrangling</li>
+                        <li>Terraform infrastructure as code</li>
+                        <li>Ansible/Puppet/Chef configuration management</li>
+                    </ul>
+                    <img src="geocities.gif" alt="Powered by Geocities">
+                    
+                    <h2 id="projects">Cool Projects</h2>
+                    <ul>
+                        <li>Automated deployment pipeline that deploys 1000x/day</li>
+                        <li>Self-healing Kubernetes cluster</li>
+                        <li>Serverless monitoring solution</li>
+                    </ul>
+                    
+                    <h2 id="contact">Hit Me Up</h2>
+                    <div class="guestbook">
+                        <h3>Sign My Guestbook!</h3>
+                        <form>
+                            Name: <input type="text"><br>
+                            Email: <input type="text"><br>
+                            Comments:<br>
+                            <textarea rows="4" cols="40"></textarea><br>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="counter">
+            <img src="counter.gif" alt="Visitor counter"> You are visitor number: 12345
+        </div>
+    </center>
+</body>
+</html>
